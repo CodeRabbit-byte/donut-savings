@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "donutsavings",
+	"version": "${version}",
+	"name": "Donut Savings",
+	"description": "A strict personal financial advisor for DonutSMP: tracks your balance, earnings and spending, enforces budgets and savings goals, blocks /pay, and makes you confirm purchases before you waste your money.",
+	"authors": [
+		"CodeRabbit-byte"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.coderabbit.donutsavings.client.DonutSavingsClient"
+		]
+	},
+	"mixins": [
+		"donutsavings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

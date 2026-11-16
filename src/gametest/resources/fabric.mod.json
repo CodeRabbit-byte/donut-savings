@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "donutsavings-test",
+	"version": "1.0.0",
+	"name": "Donut Savings Test",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"com.coderabbit.donutsavings.gametest.DonutSavingsClientGameTest"
+		]
+	},
+	"depends": {
+		"donutsavings": "*"
+	}
+}

@@ -1,0 +1,11 @@
+.gradle/
+build/
+run/
+out/
+.idea/
+*.iml
+.vscode/
+bin/
+
+# Local agent notes (machine paths, client setup) - kept out of the public repo
+CLAUDE.md
